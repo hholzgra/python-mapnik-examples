@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map background-color='white'>
+
+  <Style name="style1">
+    <Rule>
+      <LineSymbolizer stroke-opacity="0.1"/>
+    </Rule>
+  </Style>
+
+  <Layer name="layer1">
+    <StyleName>style1</StyleName>
+    <Datasource>
+      <Parameter name="file">line1.json</Parameter>
+      <Parameter name="type">geojson</Parameter>
+    </Datasource>
+  </Layer>
+
+  <Style name="style2">
+    <Rule>
+      <LineSymbolizer stroke-opacity="0.5"/>
+    </Rule>
+  </Style>
+
+  <Layer name="layer2">
+    <StyleName>style2</StyleName>
+    <Datasource>
+      <Parameter name="file">line2.json</Parameter>
+      <Parameter name="type">geojson</Parameter>
+    </Datasource>
+  </Layer>
+
+  <Style name="style3">
+    <Rule>
+      <LineSymbolizer stroke-opacity="0.9"/>
+    </Rule>
+  </Style>
+
+  <Layer name="layer3">
+    <StyleName>style3</StyleName>
+    <Datasource>
+      <Parameter name="file">line3.json</Parameter>
+      <Parameter name="type">geojson</Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map background-color='lightgreen'>
+
+  <Style name="style">
+    <Rule>
+      <LinePatternSymbolizer file='[symbol]'/>
+    </Rule>
+  </Style>
+
+  <Layer name="layer">
+    <StyleName>style</StyleName>
+    <Datasource>
+      <Parameter name="file">line-pattern.json</Parameter>
+      <Parameter name="type">geojson</Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
+

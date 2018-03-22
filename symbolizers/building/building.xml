@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map background-color='black'>
+
+  <Style name="style">
+    <Rule>
+      <BuildingSymbolizer fill="[fill]" height="[height]"/>
+    </Rule>
+  </Style>
+
+  <Layer name="layer">
+    <StyleName>style</StyleName>
+    <Datasource>
+      <Parameter name="file">test-polygons.json</Parameter>
+      <Parameter name="type">geojson</Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
+

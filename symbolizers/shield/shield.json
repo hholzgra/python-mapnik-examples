@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+         "type": "1",
+         "name": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 10, 10 ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+         "type": "1",
+         "name": "12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 30, 10 ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+         "type": "1",
+         "name": "123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 50, 10 ]
+        ]
+      }
+    }
+  ]
+}
