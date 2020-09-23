@@ -10,8 +10,13 @@
   <Layer name="layer">
     <StyleName>style</StyleName>
     <Datasource>
-      <Parameter name="file">point.json</Parameter>
-      <Parameter name="type">geojson</Parameter>
+      <Parameter name="type">csv</Parameter>
+      <Parameter name="inline">
+wkt
+"POINT(10 10)"
+"POINT(20 20)"
+"POINT(30 30)"
+      </Parameter>
     </Datasource>
   </Layer>
 
