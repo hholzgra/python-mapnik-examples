@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map background-color="red">
+
+  <Style name="style">
+    <Rule>
+	    <PointSymbolizer file="bug.svg" comp-op="[op]"/>
+    </Rule>
+  </Style>
+
+  <Layer name="layer">
+    <StyleName>style</StyleName>
+    <Datasource>
+      <Parameter name="type">csv</Parameter>
+      <Parameter name="inline">
+wkt,op
+"POINT(10 10)",clear
+"POINT(15 10)",src
+"POINT(20 10)",dst
+"POINT(25 10)",src-over
+"POINT(30 10)",dst-over
+"POINT(35 10)",src-in
+"POINT(10 15)",dst-in
+"POINT(15 15)",src-out
+"POINT(20 15)",dst-out
+"POINT(25 15)",src-atop
+"POINT(30 15)",dst-atop
+"POINT(35 15)",xor
+"POINT(10 20)",plus
+"POINT(15 20)",minus
+"POINT(20 20)",multiply
+"POINT(25 20)",divide
+"POINT(30 20)",screen
+"POINT(35 20)",overlay
+"POINT(10 25)",darken
+"POINT(15 25)",lighten
+"POINT(20 25)",color-dodge
+"POINT(25 25)",color-burn
+"POINT(30 25)",linear-dodge
+"POINT(35 25)",linear-burn
+      </Parameter>
+      <!-- hard-light, soft-light, difference, exclusion, contrast, invert, invert-rgb, grain-merge, grain-extract, hue, saturation, color, value -->
+    </Datasource>
+  </Layer>
+
+</Map>
+

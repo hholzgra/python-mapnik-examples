@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map background-color="white">
+
+  <Style name="style">
+    <Rule>
+      <PointSymbolizer file="dot.svg" opacity="[opacity]"/>
+    </Rule>
+  </Style>
+
+  <Layer name="layer">
+    <StyleName>style</StyleName>
+    <Datasource>
+      <Parameter name="type">csv</Parameter>
+      <Parameter name="inline">
+opacity,wkt
+0.1,"POINT(10 10)"
+0.5,"POINT(20 11)"
+0.8,"POINT(30 12)"
+      </Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
+
